@@ -43,14 +43,15 @@ public class EmployeeServiceImpl implements EmployeeService{
     }
 
     // we can remove @Transactional as jpa repository provides it.
-    @Override
+
  //   @Transactional
+    @Override
     public Employee save(Employee theEmployee) {
         return employeeRepository.save(theEmployee);
     }
 
-    @Override
- //   @Transactional
+ //   Transactional
+  @Override
     public void deleteById(int theId) {
         employeeRepository.deleteById(theId);
     }
