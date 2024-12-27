@@ -66,6 +66,6 @@ public class StudentRestController {
 
   // Added global exception handling using @ControllerAdvice - set up global Exception Handling
 
-
+     
 
 }
